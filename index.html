@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit Card Page</title>
+    <link rel="stylesheet" href="rk.css">
+</head>
+<body>
+      
+   <center> <div class="container animated slideInRight" >
+        <h1>Payment Information</h1>
+        <form action="">
+            <label for="">Card type</label>
+            <select name="" id="" required tab-index="1">
+                <option value="Visa">Visa</option>
+                <option value="MasterCard">MasterCard</option>
+                <option value="Amex">American Express</option>
+                <option value="Paypal">Discover</option>
+            </select>
+            <label for="">Cardholder Name</label>
+            <input type="text" placeholder="Enter Your Name" required tab-index="2"/>
+            <label for="">Card #</label>
+            <input id="cc" type="text" placeholder="1234 5678 9010" required tab-index="3">
+            <label for="">Exp. Date</label>
+            <input id="exp-date" type="text" placeholder="MM/YY">
+            <label for="">CVC</label>
+	        <input id="cvc" type="text" placeholder="123" required tab-index="5"/>
+	        <button class="card-form__button">
+                Submit
+              </button>
+        </form>
+    </div></center>
+    <script src="rk.js"></script>
+</body>
+</html>
